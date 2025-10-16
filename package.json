@@ -1,0 +1,16 @@
+{
+  "name": "ai-health-analyzer",
+  "version": "1.0.0",
+  "description": "AI-powered healthcare symptom analyzer with LLM integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["healthcare", "ai", "symptom-checker", "groq", "llm"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "groq-sdk": "^0.8.0",
+    "dotenv": "^16.3.1"
+  }
+}
