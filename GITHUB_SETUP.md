@@ -18,7 +18,7 @@ git commit -m "Initial commit: AI Health Analyzer - Symptom Checker with LLM int
 1. Go to [GitHub](https://github.com)
 2. Click the **"+"** icon (top right) → **"New repository"**
 3. Fill in:
-   - **Repository name**: `ai-health-analyzer`
+   - **Repository name**: `smart-health-analyzer`
    - **Description**: `AI-powered healthcare symptom analyzer with Groq LLM integration`
    - **Visibility**: Public or Private (your choice)
    - **DO NOT** initialize with README (we already have one)
@@ -29,7 +29,7 @@ git commit -m "Initial commit: AI Health Analyzer - Symptom Checker with LLM int
 Copy the commands from GitHub (they'll look like this):
 
 ```bash
-git remote add origin https://github.com/YOUR_USERNAME/ai-health-analyzer.git
+git remote add origin https://github.com/YOUR_USERNAME/smart-health-analyzer.git
 git branch -M main
 git push -u origin main
 ```
@@ -54,7 +54,7 @@ git add .
 git commit -m "Initial commit: AI Health Analyzer"
 
 # Add your GitHub repository as remote
-git remote add origin https://github.com/YOUR_USERNAME/ai-health-analyzer.git
+git remote add origin https://github.com/YOUR_USERNAME/smart-health-analyzer.git
 
 # Rename branch to main
 git branch -M main
@@ -183,7 +183,7 @@ Before pushing:
 ## 🎯 Final Repository Structure on GitHub
 
 ```
-ai-health-analyzer/
+smart-health-analyzer/
 ├── .gitignore              ← Protects sensitive files
 ├── .env.example            ← Template for users
 ├── index.html
